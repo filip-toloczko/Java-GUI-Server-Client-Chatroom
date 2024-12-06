@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="startBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="startController">
+   <center>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="40.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="serverBtn" mnemonicParsing="false" onAction="#serverBtnClick" prefHeight="55.0" prefWidth="130.0" text="Server" />
+            <Button fx:id="clientBtn" mnemonicParsing="false" onAction="#clientBtnClick" prefHeight="55.0" prefWidth="130.0" text="Client" />
+         </children>
+      </HBox>
+   </center>
+   <top>
+      <Text fx:id="startText" strokeType="OUTSIDE" strokeWidth="0.0" text="Program 4" textAlignment="CENTER" wrappingWidth="110.9367094039917" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>

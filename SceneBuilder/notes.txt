@@ -1,0 +1,5 @@
+- displaying connected users correctly for every user
+- adding button/selectable fields in list view of connected users
+	- add selected users to "recipient list"
+- functionalities to send to user/send to group/send to all, buttons
+- CSS styles
